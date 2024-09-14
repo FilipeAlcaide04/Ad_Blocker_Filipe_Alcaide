@@ -7,5 +7,4 @@ It's not perfect, but I'm continuously learning and open to feedback and suggest
 ## ✨ Features
 - 🚫 Blocks ads on most websites
 - 🎥 Effectively blocks YouTube ads
-- 🛡️ Prevents tracking by common trackers
 - ⚡ Lightweight and easy to use, just set up and enjoy!
