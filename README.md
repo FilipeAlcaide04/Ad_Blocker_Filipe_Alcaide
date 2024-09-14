@@ -1,6 +1,6 @@
 # AdBlocker - Hobby Project ⛔🛠️
 
-A simple ad blocker I built as a hobby project that effectively blocks ads and trackers across the web, **including YouTube ads**. It's my personal take on improving the browsing experience while exploring web development and content filtering.
+A simple Chrome extension I built as a hobby project that effectively blocks ads and trackers across the web, **including YouTube ads**. It's my personal take on improving the browsing experience while exploring web development and content filtering.
 
 It's not perfect, but I'm continuously learning and open to feedback and suggestions to make it better!
 
