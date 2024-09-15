@@ -1,131 +1,452 @@
 [
-    {
-        "id": 1,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.doubleclick.net/*"}
-    },
-    {
-        "id": 2,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://google.adservices.com/*"}
-    },
-    {
-        "id": 3,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.googlesyndication.com/*"}
-    },
-    {
-        "id": 4,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.google-analytics.com/*"}
-    },
-    {
-        "id": 5,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.adsafeprotected.com/*"}
-    },
-    {
-        "id": 6,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.adnxs.com/*"}
-    },
-    {
-        "id": 7,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.rubiconproject.com/*"}
-    },
-    {
-        "id": 8,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.pubmatic.com/*"}
-    },
-    {
-        "id": 9,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.openx.net/*"}
-    },
-    {
-        "id": 10,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.yieldmanager.com/*"}
-    },
-    {
-        "id": 11,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.appnexus.com/*"}
-    },
-    {
-        "id": 12,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.criteo.com/*"}
-    },
-    {
-        "id": 13,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.adform.net/*"}
-    },
-    {
-        "id": 14,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.taboola.com/*"}
-    },
-    {
-        "id": 15,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.outbrain.com/*"}
-    },
-    {
-        "id": 16,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.advertising.com/*"}
-    },
-    {
-        "id": 17,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {"urlFilter": "*://*.adroll.com/*"}
-    },
-    {
-        "id": 18,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {
-            "urlFilter": "*://*.youtube.com/get_video_info*",
-            "resourceTypes": ["xmlhttprequest"]
-        }
-    },
-    {
-        "id": 19,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {
-            "urlFilter": "*://*.youtube.com/api/stats/ads*",
-            "resourceTypes": ["xmlhttprequest"]
-        }
-    },
-    {
-        "id": 20,
-        "priority": 1,
-        "action": {"type": "block"},
-        "condition": {
-            "urlFilter": "*://*.youtube.com/api/stats/qoe*",
-            "resourceTypes": ["xmlhttprequest"]
-        }
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.doubleclick.net/*" }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://google.adservices.com/*" }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.googlesyndication.com/*" }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.google-analytics.com/*" }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.adsafeprotected.com/*" }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.adnxs.com/*" }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.rubiconproject.com/*" }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.pubmatic.com/*" }
+  },
+  {
+    "id": 9,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.openx.net/*" }
+  },
+  {
+    "id": 10,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.yieldmanager.com/*" }
+  },
+  {
+    "id": 11,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.appnexus.com/*" }
+  },
+  {
+    "id": 12,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.criteo.com/*" }
+  },
+  {
+    "id": 13,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.adform.net/*" }
+  },
+  {
+    "id": 14,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.taboola.com/*" }
+  },
+  {
+    "id": 15,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.outbrain.com/*" }
+  },
+  {
+    "id": 16,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.advertising.com/*" }
+  },
+  {
+    "id": 17,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.adroll.com/*" }
+  },
+  {
+    "id": 18,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.youtube.com/get_video_info*",
+      "resourceTypes": ["xmlhttprequest"]
     }
+  },
+  {
+    "id": 19,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.youtube.com/api/stats/ads*",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 20,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.youtube.com/api/stats/qoe*",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  },
+  {
+    "id": 21,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.moatads.com/*" }
+  },
+  {
+    "id": 22,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.smartadserver.com/*" }
+  },
+  {
+    "id": 23,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.doubleverify.com/*" }
+  },
+  {
+    "id": 24,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.quantserve.com/*" }
+  },
+  {
+    "id": 25,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.zmedia.com/*" }
+  },
+  {
+    "id": 26,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.exelator.com/*" }
+  },
+  {
+    "id": 27,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.bluekai.com/*" }
+  },
+  {
+    "id": 28,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.ads-twitter.com/*" }
+  },
+  {
+    "id": 29,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.facebook.com/tr/*" }
+  },
+  {
+    "id": 30,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.linkedin.com/ads/*" }
+  },
+  {
+    "id": 31,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.scorecardresearch.com/*" }
+  },
+  {
+    "id": 32,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.visualdna.com/*" }
+  },
+  {
+    "id": 33,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.adtech.de/*" }
+  },
+  {
+    "id": 34,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.revcontent.com/*" }
+  },
+  {
+    "id": 35,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.adadvisor.net/*" }
+  },
+  {
+    "id": 36,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.parsely.com/*" }
+  },
+  {
+    "id": 37,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.tynt.com/*" }
+  },
+  {
+    "id": 38,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.betweendigital.com/*" }
+  },
+  {
+    "id": 39,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.buysellads.com/*" }
+  },
+  {
+    "id": 40,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.lijit.com/*" }
+  },
+  {
+    "id": 41,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.gumgum.com/*" }
+  },
+  {
+    "id": 42,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.impactradius.com/*" }
+  },
+  {
+    "id": 43,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.bidswitch.net/*" }
+  },
+  {
+    "id": 44,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.media.net/*" }
+  },
+  {
+    "id": 45,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.adblade.com/*" }
+  },
+  {
+    "id": 46,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.adgrx.com/*" }
+  },
+  {
+    "id": 47,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.rubiconproject.com/*" }
+  },
+  {
+    "id": 48,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.sitescout.com/*" }
+  },
+  {
+    "id": 49,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.advertserve.com/*" }
+  },
+  {
+    "id": 50,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.yandex.ru/ads/*" }
+  },
+  {
+    "id": 51,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.displayvertising.com/*" }
+  },
+  {
+    "id": 52,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.youradexchange.com/*" }
+  },
+  {
+    "id": 53,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.s4.histats.com/*" }
+  },
+  {
+    "id": 54,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.acscnd.com/*" }
+  },
+  {
+    "id": 55,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.c.adsco.re/*" }
+  },
+  {
+    "id": 56,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": { "urlFilter": "*://*.googletagmanager.com/*" }
+  },
+  {
+    "id": 57,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.acscnd.com/*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://ufdwrkjguf.com/*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.dtscout.com/*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.ads.gaming1.com/*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.filter.fstsrv14.com/*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.clk.tradedoubler.com/*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "media"
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.trackcitg.com/*",
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest",
+        "sub_frame",
+        "image",
+        "media"
+      ]
+    }
+  }
 ]
