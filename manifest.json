@@ -1,23 +1,31 @@
 {
-    "name": "Whale Ad-Block",
-    "version": "1.0.0",
-    "manifest_version": 3,
-    "description": "Smooth, ad-free browsing with Simple Ad-Block, part of the Whale Ecosystem.",
-    "permissions": [
-        "declarativeNetRequest"
-    ],
-    "declarative_net_request": {
-        "rule_resources": [
-            {
-                "id": "ruleset_1",
-                "enabled": true,
-                "path": "rules.json"
-            }
-        ]
-    },
-    "icons": {
-        "16": "icons/Whale_Icon_16.png", 
-        "48": "icons/Whale_Icon_48.png",
-        "128": "icons/Whale_Icon_128.png"
-    }
+  "name": "Whale Ad-Block",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Smooth, ad-free browsing with Simple Ad-Block, part of the Whale Ecosystem.",
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.google.com/*",
+    "*://*.doubleclick.net/*",
+    "*://*.adsafeprotected.com/*",
+    "*://*.pubmatic.com/*",
+    "*://*.criteo.com/*",
+    "*://*.moatads.com/*",
+    "*://*.smartadserver.com/*"
+  ],
+  "icons": {
+    "16": "icons/Whale_Icon_16.png",
+    "48": "icons/Whale_Icon_48.png",
+    "128": "icons/Whale_Icon_128.png"
+  }
 }
